@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Creates the header for the top of the page
+
 function Header() {
     return (
         <div className="header">

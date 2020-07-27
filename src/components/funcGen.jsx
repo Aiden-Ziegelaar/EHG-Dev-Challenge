@@ -1,6 +1,8 @@
 import React from 'react';
 import { hueSorter, generateOffset, applyOffset, flattenToRGBA } from '../helpers/colourFunctions';
 
+// creates the function generator component where all the magic happens
+
 class FunctionGenerator extends React.Component {
     
     constructor(props) {
@@ -15,7 +17,7 @@ class FunctionGenerator extends React.Component {
             offsets: null
         }
     }
-    
+
     // render override
     render () {
         return (

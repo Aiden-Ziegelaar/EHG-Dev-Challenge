@@ -5,6 +5,8 @@ import { FunctionGenerator } from "../components/funcGen"
 import { Footer } from "../components/footer"
 import { flattenToRGBA, hueSorter } from "../helpers/colourFunctions"
 
+// Ties all the components together into a main view
+
 function Main() {
     hueSorter().then((value) => {
         console.log(value);
